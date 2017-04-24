@@ -1,0 +1,55 @@
+#Create table cards
+DROP TABLE if EXISTS cards;
+create table cards
+(
+card_name INT,
+PRIMARY KEY(card_name),
+type VARCHAR(255) NOT NULL,
+mana_cost INT,
+card_text VARCHAR(1023);
+red TINYINT(1) NOT NULL,
+blue TINYINT(1) NOT NULL,
+white TINYINT(1) NOT NULL,
+black TINYINT(1) NOT NULL,
+green TINYINT(1) NOT NULL
+);
+
+#load data
+load data local infile '~/project/cards.txt' into table cards fields terminated by ',';
+
+#create table competitions
+DROP TABLE if EXISTS cards;
+create table competitions
+(
+competition_name VARCHAR(255),
+year INT,
+PRIMARY KEY(competition_name, year),
+location VARCHAR(255)
+);
+
+#load data
+load data local infile '~/project/competitions.txt' into table cards fields terminated by ',';
+
+#create table usage
+DROP TABLE if EXISTS usage;
+create table usage
+(
+FOREIGN KEY card_name REFERENCES cards(card_name),
+FOREIGN KEY deck_name REFERENCES deck_representation(deck_name),
+FOREIGN KEY competition_name REFERENCES competitions(name),
+PRIMARY KEY(card_name, deck_name, competition_name);
+);
+
+#load data
+load data local infile '~/project/usage.txt' into table cards fields terminated by ',';
+
+create table deck_representation
+(
+FOREIGN KEY card_name references cards(card_name),
+deck_name VARCHAR(255),
+PRIMARY KEY(card_name, deck_name),
+number_of_copies INT
+);
+
+#load data 
+load data local infile '~/project/deck_representation.txt' into table cards fields terminated by ',';
