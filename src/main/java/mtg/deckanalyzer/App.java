@@ -151,30 +151,11 @@ public class App
     public static void writeToUsageAndRepLists(Card c, int copies, String deck, String comp, BufferedWriter bw1, BufferedWriter bw2) throws IOException
     {
     	//Print Usage
-    	boolean[] colors = new boolean[5];
-    	if(c.getColors() != null)
-    	{
-	    	for(String i:c.getColors())
-	    	{
-	    		if(i.equals("White"))
-	    			colors[0] = true;
-	    		if(i.equals("Blue"))
-	    			colors[1] = true;
-	    		if(i.equals("Black"))
-	    			colors[2] = true;
-	    		if(i.equals("Red"))
-	    			colors[3] = true;
-	    		if(i.equals("Green"))
-	    			colors[4] = true;
-	    	}
-    	}
-    	String str = deck+"|"+c.getName()+"|"+copies+"|"+c.getType()+"|"+(int)c.getCmc();
-
-    	bw1.write(str + ';');
+    	bw1.write(c.getName()+"|"+deck+"|"+comp.substring(6,comp.length() - 5)+"|"+comp.substring(comp.length() - 4)+";");
     	bw1.newLine();		//consider removing for the real run
 
     	//Print Representation
-    	bw2.write(c.getName()+"|"+deck+"|"+comp.substring(6,comp.length() - 5)+"|"+comp.substring(comp.length() - 4)+";");
+    	bw2.write(deck+"|"+c.getName()+"|"+copies + ";");
     	bw2.newLine();		//consider removing for the real run
     }
 
