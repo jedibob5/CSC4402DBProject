@@ -1,4 +1,6 @@
 package mtg.deckanalyzer;
+import java.sql.Connection;
+import java.sql.DriverManager;
 
 import io.magicthegathering.javasdk.resource.*;
 import io.magicthegathering.javasdk.api.*;

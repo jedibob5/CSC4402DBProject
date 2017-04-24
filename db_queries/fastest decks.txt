@@ -1,0 +1,6 @@
+SELECT AVG(card_name.c) as %_of_cards_below_2_mana
+FROM cards as c, deck_representation as r
+WHERE mana_cost.c IS NOT NULL AND mana_cost.c <= 2 AND r.card_name = c.card_name
+GROUP BY deck_name.r
+HAVING %_of_cards_below_2_mana >= .6
+ORDER BY %_of_cards_below_2_mana ASC
