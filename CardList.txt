@@ -1,0 +1,358 @@
+Chandra, Torch of Defiance|Planeswalker — Chandra|4|false|false|false|true|false|+1: Exile the top card of your library. You may cast that card. If you don't, Chandra, Torch of Defiance deals 2 damage to each opponent.
++1: Add {R}{R} to your mana pool.
+−3: Chandra, Torch of Defiance deals 4 damage to target creature.
+−7: You get an emblem with "Whenever you cast a spell, this emblem deals 5 damage to target creature or player.";
+Liliana of the Veil|Planeswalker — Liliana|3|false|false|true|false|false|+1: Each player discards a card.
+−2: Target player sacrifices a creature.
+−6: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of his or her choice.;
+Dark Confidant|Creature — Human Wizard|2|false|false|true|false|false|At the beginning of your upkeep, reveal the top card of your library and put that card into your hand. You lose life equal to its converted mana cost.;
+Scavenging Ooze|Creature — Ooze|2|false|false|false|false|true|{G}: Exile target card from a graveyard. If it was a creature card, put a +1/+1 counter on Scavenging Ooze and you gain 1 life.;
+Tarmogoyf|Creature — Lhurgoyf|2|false|false|false|false|true|Tarmogoyf's power is equal to the number of card types among cards in all graveyards and its toughness is equal to that number plus 1.;
+Collective Brutality|Sorcery|2|false|false|true|false|false|Escalate—Discard a card. (Pay this cost for each mode chosen beyond the first.)
+Choose one or more —
+• Target opponent reveals his or her hand. You choose an instant or sorcery card from it. That player discards that card.
+• Target creature gets -2/-2 until end of turn.
+• Target opponent loses 2 life and you gain 2 life.;
+Inquisition of Kozilek|Sorcery|1|false|false|true|false|false|Target player reveals his or her hand. You choose a nonland card from it with converted mana cost 3 or less. That player discards that card.;
+Maelstrom Pulse|Sorcery|3|false|false|true|false|true|Destroy target nonland permanent and all other permanents with the same name as that permanent.;
+Thoughtseize|Sorcery|1|false|false|true|false|false|Target player reveals his or her hand. You choose a nonland card from it. That player discards that card. You lose 2 life.;
+Abrupt Decay|Instant|2|false|false|true|false|true|Abrupt Decay can't be countered by spells or abilities.
+Destroy target nonland permanent with converted mana cost 3 or less.;
+Fatal Push|Instant|1|false|false|true|false|false|Destroy target creature if it has converted mana cost 2 or less.
+Revolt — Destroy that creature if it has converted mana cost 4 or less instead if a permanent you controlled left the battlefield this turn.;
+Kolaghan's Command|Instant|3|false|false|true|true|false|Choose two —
+• Return target creature card from your graveyard to your hand.
+• Target player discards a card.
+• Destroy target artifact.
+• Kolaghan's Command deals 2 damage to target creature or player.;
+Lightning Bolt|Instant|1|false|false|false|true|false|Lightning Bolt deals 3 damage to target creature or player.;
+Terminate|Instant|2|false|false|true|true|false|Destroy target creature. It can't be regenerated.;
+Blackcleave Cliffs|Land|0|false|false|false|false|false|Blackcleave Cliffs enters the battlefield tapped unless you control two or fewer other lands.
+{T}: Add {B} or {R} to your mana pool.;
+Blood Crypt|Land — Swamp Mountain|0|false|false|false|false|false|({T}: Add {B} or {R} to your mana pool.)
+As Blood Crypt enters the battlefield, you may pay 2 life. If you don't, Blood Crypt enters the battlefield tapped.;
+Bloodstained Mire|Land|0|false|false|false|false|false|{T}, Pay 1 life, Sacrifice Bloodstained Mire: Search your library for a Swamp or Mountain card and put it onto the battlefield. Then shuffle your library.;
+Forest|Basic Land — Forest|0|false|false|false|false|false|null;
+Overgrown Tomb|Land — Swamp Forest|0|false|false|false|false|false|({T}: Add {B} or {G} to your mana pool.)
+As Overgrown Tomb enters the battlefield, you may pay 2 life. If you don't, Overgrown Tomb enters the battlefield tapped.;
+Raging Ravine|Land|0|false|false|false|false|false|Raging Ravine enters the battlefield tapped.
+{T}: Add {R} or {G} to your mana pool.
+{2}{R}{G}: Until end of turn, Raging Ravine becomes a 3/3 red and green Elemental creature with "Whenever this creature attacks, put a +1/+1 counter on it." It's still a land.;
+Stomping Ground|Land — Mountain Forest|0|false|false|false|false|false|({T}: Add {R} or {G} to your mana pool.)
+As Stomping Ground enters the battlefield, you may pay 2 life. If you don't, Stomping Ground enters the battlefield tapped.;
+Swamp|Basic Land — Swamp|0|false|false|false|false|false|null;
+Twilight Mire|Land|0|false|false|false|false|false|{T}: Add {C} to your mana pool.
+{B/G}, {T}: Add {B}{B}, {B}{G}, or {G}{G} to your mana pool.;
+Verdant Catacombs|Land|0|false|false|false|false|false|{T}, Pay 1 life, Sacrifice Verdant Catacombs: Search your library for a Swamp or Forest card and put it onto the battlefield. Then shuffle your library.;
+Wooded Foothills|Land|0|false|false|false|false|false|{T}, Pay 1 life, Sacrifice Wooded Foothills: Search your library for a Mountain or Forest card and put it onto the battlefield. Then shuffle your library.;
+Ancient Grudge|Instant|2|false|false|false|true|false|Destroy target artifact.
+Flashback {G} (You may cast this card from your graveyard for its flashback cost. Then exile it.);
+Anger of the Gods|Sorcery|3|false|false|false|true|false|Anger of the Gods deals 3 damage to each creature. If a creature dealt damage this way would die this turn, exile it instead.;
+Bonfire of the Damned|Sorcery|1|false|false|false|true|false|Bonfire of the Damned deals X damage to target player and each creature he or she controls.
+Miracle {X}{R} (You may cast this card for its miracle cost when you draw it if it's the first card you drew this turn.);
+Feed the Clan|Instant|2|false|false|false|false|true|You gain 5 life.
+Ferocious — You gain 10 life instead if you control a creature with power 4 or greater.;
+Fulminator Mage|Creature — Elemental Shaman|3|false|false|true|true|false|Sacrifice Fulminator Mage: Destroy target nonbasic land.;
+Huntmaster of the Fells|Creature — Human Werewolf|4|false|false|false|true|true|Whenever this creature enters the battlefield or transforms into Huntmaster of the Fells, create a 2/2 green Wolf creature token and you gain 2 life.
+At the beginning of each upkeep, if no spells were cast last turn, transform Huntmaster of the Fells.;
+Kitchen Finks|Creature — Ouphe|3|true|false|false|false|true|When Kitchen Finks enters the battlefield, you gain 2 life.
+Persist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.);
+Night of Souls' Betrayal|Legendary Enchantment|4|false|false|true|false|false|All creatures get -1/-1.;
+Obstinate Baloth|Creature — Beast|4|false|false|false|false|true|When Obstinate Baloth enters the battlefield, you gain 4 life.
+If a spell or ability an opponent controls causes you to discard Obstinate Baloth, put it onto the battlefield instead of putting it into your graveyard.;
+Painful Truths|Sorcery|3|false|false|true|false|false|Converge — You draw X cards and you lose X life, where X is the number of colors of mana spent to cast Painful Truths.;
+Arcbound Ravager|Artifact Creature — Beast|2|false|false|false|false|false|Sacrifice an artifact: Put a +1/+1 counter on Arcbound Ravager.
+Modular 1 (This enters the battlefield with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.);
+Master of Etherium|Artifact Creature — Vedalken Wizard|3|false|true|false|false|false|Master of Etherium's power and toughness are each equal to the number of artifacts you control.
+Other artifact creatures you control get +1/+1.;
+Memnite|Artifact Creature — Construct|0|false|false|false|false|false|null;
+Ornithopter|Artifact Creature — Thopter|0|false|false|false|false|false|Flying (This creature can't be blocked except by creatures with flying or reach.);
+Signal Pest|Artifact Creature — Pest|1|false|false|false|false|false|Battle cry (Whenever this creature attacks, each other attacking creature gets +1/+0 until end of turn.)
+Signal Pest can't be blocked except by creatures with flying or reach.;
+Steel Overseer|Artifact Creature — Construct|2|false|false|false|false|false|{T}: Put a +1/+1 counter on each artifact creature you control.;
+Vault Skirge|Artifact Creature — Imp|2|false|false|true|false|false|({B/P} can be paid with either {B} or 2 life.)
+Flying
+Lifelink (Damage dealt by this creature also causes you to gain that much life.);
+Galvanic Blast|Instant|1|false|false|false|true|false|Galvanic Blast deals 2 damage to target creature or player.
+Metalcraft — Galvanic Blast deals 4 damage to that creature or player instead if you control three or more artifacts.;
+Cranial Plating|Artifact — Equipment|2|false|false|false|false|false|Equipped creature gets +1/+0 for each artifact you control.
+{B}{B}: Attach Cranial Plating to target creature you control.
+Equip {1};
+Darksteel Citadel|Artifact Land|0|false|false|false|false|false|Indestructible
+{T}: Add {C} to your mana pool.;
+Mox Opal|Legendary Artifact|0|false|false|false|false|false|Metalcraft — {T}: Add one mana of any color to your mana pool. Activate this ability only if you control three or more artifacts.;
+Springleaf Drum|Artifact|1|false|false|false|false|false|{T}, Tap an untapped creature you control: Add one mana of any color to your mana pool.;
+Welding Jar|Artifact|0|false|false|false|false|false|Sacrifice Welding Jar: Regenerate target artifact.;
+Blinkmoth Nexus|Land|0|false|false|false|false|false|{T}: Add {C} to your mana pool.
+{1}: Blinkmoth Nexus becomes a 1/1 Blinkmoth artifact creature with flying until end of turn. It's still a land.
+{1}, {T}: Target Blinkmoth creature gets +1/+1 until end of turn.;
+Glimmervoid|Land|0|false|false|false|false|false|At the beginning of the end step, if you control no artifacts, sacrifice Glimmervoid.
+{T}: Add one mana of any color to your mana pool.;
+Inkmoth Nexus|Land|0|false|false|false|false|false|{T}: Add {C} to your mana pool.
+{1}: Inkmoth Nexus becomes a 1/1 Blinkmoth artifact creature with flying and infect until end of turn. It's still a land. (It deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.);
+Island|Basic Land — Island|0|false|false|false|false|false|null;
+Spire of Industry|Land|0|false|false|false|false|false|{T}: Add {C} to your mana pool.
+{T}, Pay 1 life: Add one mana of any color to your mana pool. Activate this ability only if you control an artifact.;
+Dismember|Instant|3|false|false|true|false|false|({B/P} can be paid with either {B} or 2 life.)
+Target creature gets -5/-5 until end of turn.;
+Etched Champion|Artifact Creature — Soldier|3|false|false|false|false|false|Metalcraft — Etched Champion has protection from all colors as long as you control three or more artifacts.;
+Ghirapur Aether Grid|Enchantment|3|false|false|false|true|false|Tap two untapped artifacts you control: Ghirapur Aether Grid deals 1 damage to target creature or player.;
+Grafdigger's Cage|Artifact|1|false|false|false|false|false|Creature cards can't enter the battlefield from graveyards or libraries.
+Players can't cast cards in graveyards or libraries.;
+Hurkyl's Recall|Instant|2|false|true|false|false|false|Return all artifacts target player owns to his or her hand.;
+Spell Pierce|Instant|1|false|true|false|false|false|Counter target noncreature spell unless its controller pays {2}.;
+Spellskite|Artifact Creature — Horror|2|false|false|false|false|false|{U/P}: Change a target of target spell or ability to Spellskite. ({U/P} can be paid with either {U} or 2 life.);
+Wear|Instant|2|false|false|false|true|false|Destroy target artifact.
+Fuse (You may cast one or both halves of this card from your hand.);
+Tear|Instant|1|true|false|false|false|false|Destroy target enchantment.
+Fuse (You may cast one or both halves of this card from your hand.);
+Mountain|Basic Land — Mountain|0|false|false|false|false|false|null;
+Dispatch|Instant|1|true|false|false|false|false|Tap target creature.
+Metalcraft — If you control three or more artifacts, exile that creature.;
+Rest in Peace|Enchantment|2|true|false|false|false|false|When Rest in Peace enters the battlefield, exile all cards from all graveyards.
+If a card or token would be put into a graveyard from anywhere, exile it instead.;
+Stubborn Denial|Instant|1|false|true|false|false|false|Counter target noncreature spell unless its controller pays {1}.
+Ferocious — If you control a creature with power 4 or greater, counter that spell instead.;
+Liliana, the Last Hope|Planeswalker — Liliana|3|false|false|true|false|false|+1: Up to one target creature gets -2/-1 until your next turn.
+−2: Put the top two cards of your library into your graveyard, then you may return a creature card from your graveyard to your hand.
+−7: You get an emblem with "At the beginning of your end step, create X 2/2 black Zombie creature tokens, where X is two plus the number of Zombies you control.";
+Death's Shadow|Creature — Avatar|1|false|false|true|false|false|Death's Shadow gets -X/-X, where X is your life total.;
+Street Wraith|Creature — Wraith|5|false|false|true|false|false|Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
+Cycling—Pay 2 life. (Pay 2 life, Discard this card: Draw a card.);
+Traverse the Ulvenwald|Sorcery|1|false|false|false|false|true|Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.
+Delirium — If there are four or more card types among cards in your graveyard, instead search your library for a creature or land card, reveal it, put it into your hand, then shuffle your library.;
+Temur Battle Rage|Instant|2|false|false|false|true|false|Target creature gains double strike until end of turn. (It deals both first-strike and regular combat damage.)
+Ferocious — That creature also gains trample until end of turn if you control a creature with power 4 or greater.;
+Mishra's Bauble|Artifact|0|false|false|false|false|false|{T}, Sacrifice Mishra's Bauble: Look at the top card of target player's library. Draw a card at the beginning of the next turn's upkeep.;
+Godless Shrine|Land — Plains Swamp|0|false|false|false|false|false|({T}: Add {W} or {B} to your mana pool.)
+As Godless Shrine enters the battlefield, you may pay 2 life. If you don't, Godless Shrine enters the battlefield tapped.;
+Marsh Flats|Land|0|false|false|false|false|false|{T}, Pay 1 life, Sacrifice Marsh Flats: Search your library for a Plains or Swamp card and put it onto the battlefield. Then shuffle your library.;
+Tarfire|Tribal Instant — Goblin|1|false|false|false|true|false|Tarfire deals 2 damage to target creature or player.;
+Big Game Hunter|Creature — Human Rebel Assassin|3|false|false|true|false|false|When Big Game Hunter enters the battlefield, destroy target creature with power 4 or greater. It can't be regenerated.
+Madness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.);
+Gaddock Teeg|Legendary Creature — Kithkin Advisor|2|true|false|false|false|true|Noncreature spells with converted mana cost 4 or greater can't be cast.
+Noncreature spells with {X} in their mana costs can't be cast.;
+Lingering Souls|Sorcery|3|true|false|false|false|false|Create two 1/1 white Spirit creature tokens with flying.
+Flashback {1}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.);
+Nihil Spellbomb|Artifact|1|false|false|false|false|false|{T}, Sacrifice Nihil Spellbomb: Exile all cards from target player's graveyard.
+When Nihil Spellbomb is put into a graveyard from the battlefield, you may pay {B}. If you do, draw a card.;
+Ranger of Eos|Creature — Human Soldier|4|true|false|false|false|false|When Ranger of Eos enters the battlefield, you may search your library for up to two creature cards with converted mana cost 1 or less, reveal them, and put them into your hand. If you do, shuffle your library.;
+Yixlid Jailer|Creature — Zombie Wizard|2|false|false|true|false|false|Cards in graveyards lose all abilities.;
+Polluted Delta|Land|0|false|false|false|false|false|{T}, Pay 1 life, Sacrifice Polluted Delta: Search your library for an Island or Swamp card and put it onto the battlefield. Then shuffle your library.;
+Surgical Extraction|Instant|1|false|false|true|false|false|({B/P} can be paid with either {B} or 2 life.)
+Choose target card in a graveyard other than a basic land card. Search its owner's graveyard, hand, and library for any number of cards with the same name as that card and exile them. Then that player shuffles his or her library.;
+Gideon, Ally of Zendikar|Planeswalker — Gideon|4|true|false|false|false|false|+1: Until end of turn, Gideon, Ally of Zendikar becomes a 5/5 Human Soldier Ally creature with indestructible that's still a planeswalker. Prevent all damage that would be dealt to him this turn.
+0: Create a 2/2 white Knight Ally creature token.
+−4: You get an emblem with "Creatures you control get +1/+1.";
+Birds of Paradise|Creature — Bird|1|false|false|false|false|true|Flying
+{T}: Add one mana of any color to your mana pool.;
+Courser of Kruphix|Enchantment Creature — Centaur|3|false|false|false|false|true|Play with the top card of your library revealed.
+You may play the top card of your library if it's a land card.
+Whenever a land enters the battlefield under your control, you gain 1 life.;
+Knight of the Reliquary|Creature — Human Knight|3|true|false|false|false|true|Knight of the Reliquary gets +1/+1 for each land card in your graveyard.
+{T}, Sacrifice a Forest or Plains: Search your library for a land card, put it onto the battlefield, then shuffle your library.;
+Noble Hierarch|Creature — Human Druid|1|false|false|false|false|true|Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
+{T}: Add {G}, {W}, or {U} to your mana pool.;
+Qasali Pridemage|Creature — Cat Wizard|2|true|false|false|false|true|Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
+{1}, Sacrifice Qasali Pridemage: Destroy target artifact or enchantment.;
+Selfless Spirit|Creature — Spirit Cleric|2|true|false|false|false|false|Flying
+Sacrifice Selfless Spirit: Creatures you control gain indestructible until end of turn.;
+Spell Queller|Creature — Spirit|3|true|true|false|false|false|Flash
+Flying
+When Spell Queller enters the battlefield, exile target spell with converted mana cost 4 or less.
+When Spell Queller leaves the battlefield, the exiled card's owner may cast that card without paying its mana cost.;
+Voice of Resurgence|Creature — Elemental|2|true|false|false|false|true|Whenever an opponent casts a spell during your turn or when Voice of Resurgence dies, create a green and white Elemental creature token with "This creature's power and toughness are each equal to the number of creatures you control.";
+Collected Company|Instant|4|false|false|false|false|true|Look at the top six cards of your library. Put up to two creature cards with converted mana cost 3 or less from among them onto the battlefield. Put the rest on the bottom of your library in any order.;
+Path to Exile|Instant|1|true|false|false|false|false|Exile target creature. Its controller may search his or her library for a basic land card, put that card onto the battlefield tapped, then shuffle his or her library.;
+Retreat to Coralhelm|Enchantment|3|false|true|false|false|false|Landfall — Whenever a land enters the battlefield under your control, choose one —
+• You may tap or untap target creature.
+• Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.);
+Breeding Pool|Land — Forest Island|0|false|false|false|false|false|({T}: Add {G} or {U} to your mana pool.)
+As Breeding Pool enters the battlefield, you may pay 2 life. If you don't, Breeding Pool enters the battlefield tapped.;
+Flooded Strand|Land|0|false|false|false|false|false|{T}, Pay 1 life, Sacrifice Flooded Strand: Search your library for a Plains or Island card and put it onto the battlefield. Then shuffle your library.;
+Gavony Township|Land|0|false|false|false|false|false|{T}: Add {C} to your mana pool.
+{2}{G}{W}, {T}: Put a +1/+1 counter on each creature you control.;
+Ghost Quarter|Land|0|false|false|false|false|false|{T}: Add {C} to your mana pool.
+{T}, Sacrifice Ghost Quarter: Destroy target land. Its controller may search his or her library for a basic land card, put it onto the battlefield, then shuffle his or her library.;
+Hallowed Fountain|Land — Plains Island|0|false|false|false|false|false|({T}: Add {W} or {U} to your mana pool.)
+As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, Hallowed Fountain enters the battlefield tapped.;
+Horizon Canopy|Land|0|false|false|false|false|false|{T}, Pay 1 life: Add {G} or {W} to your mana pool.
+{1}, {T}, Sacrifice Horizon Canopy: Draw a card.;
+Misty Rainforest|Land|0|false|false|false|false|false|{T}, Pay 1 life, Sacrifice Misty Rainforest: Search your library for a Forest or Island card and put it onto the battlefield. Then shuffle your library.;
+Plains|Basic Land — Plains|0|false|false|false|false|false|null;
+Temple Garden|Land — Forest Plains|0|false|false|false|false|false|({T}: Add {G} or {W} to your mana pool.)
+As Temple Garden enters the battlefield, you may pay 2 life. If you don't, Temple Garden enters the battlefield tapped.;
+Windswept Heath|Land|0|false|false|false|false|false|{T}, Pay 1 life, Sacrifice Windswept Heath: Search your library for a Forest or Plains card and put it onto the battlefield. Then shuffle your library.;
+Bojuka Bog|Land|0|false|false|false|false|false|Bojuka Bog enters the battlefield tapped.
+When Bojuka Bog enters the battlefield, exile all cards from target player's graveyard.
+{T}: Add {B} to your mana pool.;
+Detention Sphere|Enchantment|3|true|true|false|false|false|When Detention Sphere enters the battlefield, you may exile target nonland permanent not named Detention Sphere and all other permanents with the same name as that permanent.
+When Detention Sphere leaves the battlefield, return the exiled cards to the battlefield under their owner's control.;
+Meddling Mage|Creature — Human Wizard|2|true|true|false|false|false|As Meddling Mage enters the battlefield, name a nonland card.
+The named card can't be cast.;
+Reclamation Sage|Creature — Elf Shaman|3|false|false|false|false|true|When Reclamation Sage enters the battlefield, you may destroy target artifact or enchantment.;
+Reflector Mage|Creature — Human Wizard|3|true|true|false|false|false|When Reflector Mage enters the battlefield, return target creature an opponent controls to its owner's hand. That creature's owner can't cast spells with the same name as that creature until your next turn.;
+Unified Will|Instant|2|false|true|false|false|false|Counter target spell if you control more creatures than that spell's controller.;
+Jace, Architect of Thought|Planeswalker — Jace|4|false|true|false|false|false|+1: Until your next turn, whenever a creature an opponent controls attacks, it gets -1/-0 until end of turn.
+−2: Reveal the top three cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other on the bottom of your library in any order.
+−8: For each player, search that player's library for a nonland card and exile it, then that player shuffles his or her library. You may cast those cards without paying their mana costs.;
+Goblin Dark-Dwellers|Creature — Goblin|5|false|false|false|true|false|Menace
+When Goblin Dark-Dwellers enters the battlefield, you may cast target instant or sorcery card with converted mana cost 3 or less from your graveyard without paying its mana cost. If that card would be put into your graveyard this turn, exile it instead.;
+Platinum Emperion|Artifact Creature — Golem|8|false|false|false|false|false|Your life total can't change. (You can't gain or lose life. You can't pay any amount of life except 0.);
+Snapcaster Mage|Creature — Human Wizard|2|false|true|false|false|false|Flash
+When Snapcaster Mage enters the battlefield, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. (You may cast that card from your graveyard for its flashback cost. Then exile it.);
+Vendilion Clique|Legendary Creature — Faerie Wizard|3|false|true|false|false|false|Flash
+Flying
+When Vendilion Clique enters the battlefield, look at target player's hand. You may choose a nonland card from it. If you do, that player reveals the chosen card, puts it on the bottom of his or her library, then draws a card.;
+Ancestral Vision|Sorcery|0|false|true|false|false|false|Suspend 4—{U} (Rather than cast this card from your hand, pay {U} and exile it with four time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, cast it without paying its mana cost.)
+Target player draws three cards.;
+Madcap Experiment|Sorcery|4|false|false|false|true|false|Reveal cards from the top of your library until you reveal an artifact card. Put that card onto the battlefield and the rest on the bottom of your library in a random order. Madcap Experiment deals damage to you equal to the number of cards revealed this way.;
+Serum Visions|Sorcery|1|false|true|false|false|false|Draw a card. Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.);
+Cryptic Command|Instant|4|false|true|false|false|false|Choose two —
+• Counter target spell.
+• Return target permanent to its owner's hand.
+• Tap all creatures your opponents control.
+• Draw a card.;
+Electrolyze|Instant|3|false|true|false|true|false|Electrolyze deals 2 damage divided as you choose among one or two target creatures and/or players.
+Draw a card.;
+Izzet Charm|Instant|2|false|true|false|true|false|Choose one —
+• Counter target noncreature spell unless its controller pays {2}.
+• Izzet Charm deals 2 damage to target creature.
+• Draw two cards, then discard two cards.;
+Mana Leak|Instant|2|false|true|false|false|false|Counter target spell unless its controller pays {3}.;
+Remand|Instant|2|false|true|false|false|false|Counter target spell. If that spell is countered this way, put it into its owner's hand instead of into that player's graveyard.
+Draw a card.;
+Spell Snare|Instant|1|false|true|false|false|false|Counter target spell with converted mana cost 2.;
+Blood Moon|Enchantment|3|false|false|false|true|false|Nonbasic lands are Mountains.;
+Scalding Tarn|Land|0|false|false|false|false|false|{T}, Pay 1 life, Sacrifice Scalding Tarn: Search your library for an Island or Mountain card and put it onto the battlefield. Then shuffle your library.;
+Spirebluff Canal|Land|0|false|false|false|false|false|Spirebluff Canal enters the battlefield tapped unless you control two or fewer other lands.
+{T}: Add {U} or {R} to your mana pool.;
+Steam Vents|Land — Island Mountain|0|false|false|false|false|false|({T}: Add {U} or {R} to your mana pool.)
+As Steam Vents enters the battlefield, you may pay 2 life. If you don't, Steam Vents enters the battlefield tapped.;
+Sulfur Falls|Land|0|false|false|false|false|false|Sulfur Falls enters the battlefield tapped unless you control an Island or a Mountain.
+{T}: Add {U} or {R} to your mana pool.;
+Bedlam Reveler|Creature — Devil Horror|8|false|false|false|true|false|Bedlam Reveler costs {1} less to cast for each instant and sorcery card in your graveyard.
+Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+When Bedlam Reveler enters the battlefield, discard your hand, then draw three cards.;
+Ceremonious Rejection|Instant|1|false|true|false|false|false|Counter target colorless spell.;
+Dispel|Instant|1|false|true|false|false|false|Counter target instant spell.;
+Pia and Kiran Nalaar|Legendary Creature — Human Artificer|4|false|false|false|true|false|When Pia and Kiran Nalaar enters the battlefield, create two 1/1 colorless Thopter artifact creature tokens with flying.
+{2}{R}, Sacrifice an artifact: Pia and Kiran Nalaar deals 2 damage to target creature or player.;
+Thing in the Ice|Creature — Horror|2|false|true|false|false|false|Defender
+Thing in the Ice enters the battlefield with four ice counters on it.
+Whenever you cast an instant or sorcery spell, remove an ice counter from Thing in the Ice. Then if it has no ice counters on it, transform it.;
+Threads of Disloyalty|Enchantment — Aura|3|false|true|false|false|false|Enchant creature with converted mana cost 2 or less
+You control enchanted creature.;
+Vandalblast|Sorcery|1|false|false|false|true|false|Destroy target artifact you don't control.
+Overload {4}{R} (You may cast this spell for its overload cost. If you do, change its text by replacing all instances of "target" with "each.");
+Elspeth, Sun's Champion|Planeswalker — Elspeth|6|true|false|false|false|false|+1: Create three 1/1 white Soldier creature tokens.
+−3: Destroy all creatures with power 4 or greater.
+−7: You get an emblem with "Creatures you control get +2/+2 and have flying.";
+Supreme Verdict|Sorcery|4|true|true|false|false|false|Supreme Verdict can't be countered.
+Destroy all creatures.;
+Blessed Alliance|Instant|2|true|false|false|false|false|Escalate {2} (Pay this cost for each mode chosen beyond the first.)
+Choose one or more —
+• Target player gains 4 life.
+• Untap up to two target creatures.
+• Target opponent sacrifices an attacking creature.;
+Condemn|Instant|1|true|false|false|false|false|Put target attacking creature on the bottom of its owner's library. Its controller gains life equal to its toughness.;
+Crucible of Worlds|Artifact|3|false|false|false|false|false|You may play land cards from your graveyard.;
+Spreading Seas|Enchantment — Aura|2|false|true|false|false|false|Enchant land
+When Spreading Seas enters the battlefield, draw a card.
+Enchanted land is an Island.;
+Celestial Colonnade|Land|0|false|false|false|false|false|Celestial Colonnade enters the battlefield tapped.
+{T}: Add {W} or {U} to your mana pool.
+{3}{W}{U}: Until end of turn, Celestial Colonnade becomes a 4/4 white and blue Elemental creature with flying and vigilance. It's still a land.;
+Seachrome Coast|Land|0|false|false|false|false|false|Seachrome Coast enters the battlefield tapped unless you control two or fewer other lands.
+{T}: Add {W} or {U} to your mana pool.;
+Celestial Purge|Instant|2|true|false|false|false|false|Exile target black or red permanent.;
+Kor Firewalker|Creature — Kor Soldier|2|true|false|false|false|false|Protection from red
+Whenever a player casts a red spell, you may gain 1 life.;
+Negate|Instant|2|false|true|false|false|false|Counter target noncreature spell.;
+Porphyry Nodes|Enchantment|1|true|false|false|false|false|At the beginning of your upkeep, destroy the creature with the least power. It can't be regenerated. If two or more creatures are tied for least power, you choose one of them.
+When there are no creatures on the battlefield, sacrifice Porphyry Nodes.;
+Stony Silence|Enchantment|2|true|false|false|false|false|Activated abilities of artifacts can't be activated.;
+Tireless Tracker|Creature — Human Scout|3|false|false|false|false|true|Whenever a land enters the battlefield under your control, investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")
+Whenever you sacrifice a Clue, put a +1/+1 counter on Tireless Tracker.;
+Botanical Sanctum|Land|0|false|false|false|false|false|Botanical Sanctum enters the battlefield tapped unless you control two or fewer other lands.
+{T}: Add {G} or {U} to your mana pool.;
+Kessig Wolf Run|Land|0|false|false|false|false|false|{T}: Add {C} to your mana pool.
+{X}{R}{G}, {T}: Target creature gets +X/+0 and gains trample until end of turn.;
+Sacred Foundry|Land — Mountain Plains|0|false|false|false|false|false|({T}: Add {R} or {W} to your mana pool.)
+As Sacred Foundry enters the battlefield, you may pay 2 life. If you don't, Sacred Foundry enters the battlefield tapped.;
+Izzet Staticaster|Creature — Human Wizard|3|false|true|false|true|false|Flash (You may cast this spell any time you could cast an instant.)
+Haste
+{T}: Izzet Staticaster deals 1 damage to target creature and each other creature with the same name as that creature.;
+Tasigur, the Golden Fang|Legendary Creature — Human Shaman|6|false|false|true|false|false|Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
+{2}{G/U}{G/U}: Put the top two cards of your library into your graveyard, then return a nonland card of an opponent's choice from your graveyard to your hand.;
+Countersquall|Instant|2|false|true|true|false|false|Counter target noncreature spell. Its controller loses 2 life.;
+Thought Scour|Instant|1|false|true|false|false|false|Target player puts the top two cards of his or her library into his or her graveyard.
+Draw a card.;
+Creeping Tar Pit|Land|0|false|false|false|false|false|Creeping Tar Pit enters the battlefield tapped.
+{T}: Add {U} or {B} to your mana pool.
+{1}{U}{B}: Creeping Tar Pit becomes a 3/2 blue and black Elemental creature until end of turn and can't be blocked this turn. It's still a land.;
+Watery Grave|Land — Island Swamp|0|false|false|false|false|false|({T}: Add {U} or {B} to your mana pool.)
+As Watery Grave enters the battlefield, you may pay 2 life. If you don't, Watery Grave enters the battlefield tapped.;
+Damnation|Sorcery|4|false|false|true|false|false|Destroy all creatures. They can't be regenerated.;
+Engineered Explosives|Artifact|0|false|false|false|false|false|Sunburst (This enters the battlefield with a charge counter on it for each color of mana spent to cast it.)
+{2}, Sacrifice Engineered Explosives: Destroy each nonland permanent with converted mana cost equal to the number of charge counters on Engineered Explosives.;
+Molten Rain|Sorcery|3|false|false|false|true|false|Destroy target land. If that land was nonbasic, Molten Rain deals 2 damage to the land's controller.;
+Grim Flayer|Creature — Human Warrior|2|false|false|true|false|true|Trample
+Whenever Grim Flayer deals combat damage to a player, look at the top three cards of your library. Put any number of them into your graveyard and the rest back on top of your library in any order.
+Delirium — Grim Flayer gets +2/+2 as long as there are four or more card types among cards in your graveyard.;
+Murderous Cut|Instant|5|false|false|true|false|false|Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
+Destroy target creature.;
+Karn Liberated|Planeswalker — Karn|7|false|false|false|false|false|+4: Target player exiles a card from his or her hand.
+−3: Exile target permanent.
+−14: Restart the game, leaving in exile all non-Aura permanent cards exiled with Karn Liberated. Then put those cards onto the battlefield under your control.;
+Endbringer|Creature — Eldrazi|6|false|false|false|false|false|Untap Endbringer during each other player's untap step.
+{T}: Endbringer deals 1 damage to target creature or player.
+{C}, {T}: Target creature can't attack or block this turn.
+{C}{C}, {T}: Draw a card.;
+Matter Reshaper|Creature — Eldrazi|3|false|false|false|false|false|({C} represents colorless mana.)
+When Matter Reshaper dies, reveal the top card of your library. You may put that card onto the battlefield if it's a permanent card with converted mana cost 3 or less. Otherwise, put that card into your hand.;
+Reality Smasher|Creature — Eldrazi|5|false|false|false|false|false|({C} represents colorless mana.)
+Trample, haste
+Whenever Reality Smasher becomes the target of a spell an opponent controls, counter that spell unless its controller discards a card.;
+Thought-Knot Seer|Creature — Eldrazi|4|false|false|false|false|false|({C} represents colorless mana.)
+When Thought-Knot Seer enters the battlefield, target opponent reveals his or her hand. You choose a nonland card from it and exile that card.
+When Thought-Knot Seer leaves the battlefield, target opponent draws a card.;
+Ulamog, the Ceaseless Hunger|Legendary Creature — Eldrazi|10|false|false|false|false|false|When you cast Ulamog, the Ceaseless Hunger, exile two target permanents.
+Indestructible
+Whenever Ulamog attacks, defending player exiles the top twenty cards of his or her library.;
+Walking Ballista|Artifact Creature — Construct|0|false|false|false|false|false|Walking Ballista enters the battlefield with X +1/+1 counters on it.
+{4}: Put a +1/+1 counter on Walking Ballista.
+Remove a +1/+1 counter from Walking Ballista: It deals 1 damage to target creature or player.;
+All Is Dust|Tribal Sorcery — Eldrazi|7|false|false|false|false|false|Each player sacrifices all colored permanents he or she controls.;
+Basilisk Collar|Artifact — Equipment|1|false|false|false|false|false|Equipped creature has deathtouch and lifelink.
+Equip {2};
+Batterskull|Artifact — Equipment|5|false|false|false|false|false|Living weapon (When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this to it.)
+Equipped creature gets +4/+4 and has vigilance and lifelink.
+{3}: Return Batterskull to its owner's hand.
+Equip {5};
+Chalice of the Void|Artifact|0|false|false|false|false|false|Chalice of the Void enters the battlefield with X charge counters on it.
+Whenever a player casts a spell with converted mana cost equal to the number of charge counters on Chalice of the Void, counter that spell.;
+Expedition Map|Artifact|1|false|false|false|false|false|{2}, {T}, Sacrifice Expedition Map: Search your library for a land card, reveal it, and put it into your hand. Then shuffle your library.;
+Mind Stone|Artifact|2|false|false|false|false|false|{T}: Add {C} to your mana pool.
+{1}, {T}, Sacrifice Mind Stone: Draw a card.;
+Buried Ruin|Land|0|false|false|false|false|false|{T}: Add {C} to your mana pool.
+{2}, {T}, Sacrifice Buried Ruin: Return target artifact card from your graveyard to your hand.;
+Cavern of Souls|Land|0|false|false|false|false|false|As Cavern of Souls enters the battlefield, choose a creature type.
+{T}: Add {C} to your mana pool.
+{T}: Add one mana of any color to your mana pool. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered.;
+Eldrazi Temple|Land|0|false|false|false|false|false|{T}: Add {C} to your mana pool.
+{T}: Add {C}{C} to your mana pool. Spend this mana only to cast colorless Eldrazi spells or activate abilities of colorless Eldrazi.;
+Sea Gate Wreckage|Land|0|false|false|false|false|false|{T}: Add {C} to your mana pool. ({C} represents colorless mana.)
+{2}{C}, {T}: Draw a card. Activate this ability only if you have no cards in hand.;
+Urza's Mine|Land — Urza’s Mine|0|false|false|false|false|false|{T}: Add {C} to your mana pool. If you control an Urza's Power-Plant and an Urza's Tower, add {C}{C} to your mana pool instead.;
+Urza's Power Plant|Land — Urza’s Power-Plant|0|false|false|false|false|false|{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Tower, add {C}{C} to your mana pool instead.;
+Urza's Tower|Land — Urza’s Tower|0|false|false|false|false|false|{T}: Add {C} to your mana pool. If you control an Urza's Mine and an Urza's Power-Plant, add {C}{C}{C} to your mana pool instead.;
+Wastes|Basic Land|0|false|false|false|false|false|{T}: Add {C} to your mana pool;
+Pithing Needle|Artifact|1|false|false|false|false|false|As Pithing Needle enters the battlefield, name a card.
+Activated abilities of sources with the chosen name can't be activated unless they're mana abilities.;
+Ratchet Bomb|Artifact|2|false|false|false|false|false|{T}: Put a charge counter on Ratchet Bomb.
+{T}, Sacrifice Ratchet Bomb: Destroy each nonland permanent with converted mana cost equal to the number of charge counters on Ratchet Bomb.;
+Relic of Progenitus|Artifact|1|false|false|false|false|false|{T}: Target player exiles a card from his or her graveyard.
+{1}, Exile Relic of Progenitus: Exile all cards from all graveyards. Draw a card.;
+Spatial Contortion|Instant|2|false|false|false|false|false|({C} represents colorless mana.)
+Target creature gets +3/-3 until end of turn.;
