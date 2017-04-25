@@ -1,0 +1,9 @@
+# Gets cards that were used in exactly one deck in any given competition, and the competition it occurred in
+SELECT u.card_name, u.deck_name, t.competition_name, t.year
+FROM card_usage as u, competitions as t
+WHERE UNIQUE (SELECT *
+		FROM card_usage AS v
+		WHERE u.card_name = v.card_name
+		AND u.competition = v.competition)
+AND u.competition = t.competition_name
+AND u.year = t.year;
