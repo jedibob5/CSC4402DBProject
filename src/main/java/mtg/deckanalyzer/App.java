@@ -14,7 +14,6 @@ public class App
 {
 	public static void main(String[] args)
     {
-		System.out.println(CardAPI.getCard(405094).getName());
     	ArrayList<File> deckLists = new ArrayList<File>();
     	ArrayList<Card> cardList = new ArrayList<Card>();
     	File dir = new File("Decks");
