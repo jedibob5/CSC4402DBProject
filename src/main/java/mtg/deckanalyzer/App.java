@@ -197,7 +197,7 @@ public class App
 		    		if(k)
 		    			str = str + "|" + "1";
 		    		else
-		    			str = str + "|" + "1";
+		    			str = str + "|" + "0";
 		    	}
 
 		    	str = str + "|" + c.getText() + ";";
