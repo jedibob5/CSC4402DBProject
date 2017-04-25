@@ -1,4 +1,4 @@
-SELECT COUNT(card_name)
-FROM deck_representation as r
+SELECT card_name, COUNT(card_name) as num_of_decks_using_this_card
+FROM card_representation as r
 GROUP BY card_name
-ORDER BY num_of_decks_using_this_card ASC
+ORDER BY num_of_decks_using_this_card DESC

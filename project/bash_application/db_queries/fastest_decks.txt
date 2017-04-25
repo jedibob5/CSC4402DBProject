@@ -1,6 +1,6 @@
-SELECT AVG(card_name.c) as %_of_cards_below_2_mana
-FROM cards as c, deck_representation as r
-WHERE mana_cost.c IS NOT NULL AND mana_cost.c <= 2 AND r.card_name = c.card_name
-GROUP BY deck_name.r
-HAVING %_of_cards_below_2_mana >= .6
-ORDER BY %_of_cards_below_2_mana ASC
+SELECT r.deck_name, AVG(c.card_name) as percentage_of_cards_below_2_mana
+FROM cards as c, card_representation as r
+WHERE c.mana_cost IS NOT NULL AND c.mana_cost <= 2 AND r.card_name = c.card_name
+GROUP BY r.deck_name
+HAVING percentage_of_cards_below_2_mana >= .6
+ORDER BY percentage_of_cards_below_2_mana ASC

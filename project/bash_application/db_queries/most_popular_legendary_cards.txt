@@ -1,5 +1,5 @@
-SELECT c.*, COUNT(u.deck_name) as num_of_appearances
+SELECT c.card_name, c.type, c.mana_cost, c.red, c.blue, c.green, c.white, c.black, COUNT(deck_name) as num_of_appearances
 FROM cards AS c, card_usage AS u
-WHERE c.type LIKE "%Legend%"
+WHERE c.type LIKE "%Legend%" and c.card_name = u.card_name
 GROUP BY c.card_name
 ORDER BY num_of_appearances

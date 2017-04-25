@@ -15,7 +15,7 @@ card_text VARCHAR(1023)
 );
 
 #load data
-load data local infile '~/project/bash_application/db_queries/CardList.txt' into table cards fields terminated by '|' LINES TERMINATED BY ";";
+load data local infile '~/project2/CardList.txt' into table cards fields terminated by '|' LINES TERMINATED BY ";";
 
 #create table competitions
 DROP TABLE if EXISTS competitions;
@@ -27,7 +27,7 @@ PRIMARY KEY(name, year)
 );
 
 #load data
-load data local infile '~/project/bash_application/db_queries/Competitions.txt' into table competitions fields terminated by '|' LINES TERMINATED BY ";";
+load data local infile '~/project2/Competitions.txt' into table competitions fields terminated by '|' LINES TERMINATED BY ";";
 
 #create table card_representation
 DROP TABLE if EXISTS card_representation;
@@ -41,7 +41,7 @@ number_of_copies INT
 );
 
 #load data 
-load data local infile '~/project/bash_application/db_queries/Representation.txt' into table card_representation fields terminated by '|' LINES TERMINATED BY ";";
+load data local infile '~/project2/Representation.txt' into table card_representation fields terminated by '|' LINES TERMINATED BY ";";
 
 #Create table card_usage
 DROP TABLE if EXISTS card_usage;
@@ -57,4 +57,4 @@ PRIMARY KEY (card_name, deck_name, competition_name, competition_year)
 );
 
 #load data
-load data local infile '~/project/bash_application/db_queries/UsageList.txt' into table card_usage fields terminated by '|' LINES TERMINATED BY ";";
+load data local infile '~/project2/UsageList.txt' into table card_usage fields terminated by '|' LINES TERMINATED BY ";";

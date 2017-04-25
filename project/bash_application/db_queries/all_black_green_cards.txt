@@ -1,8 +1,8 @@
 SELECT *
 FROM cards
-WHERE card.black = 1 and
-      card.green = 1 and
-      card.white = 0 and
-      card.red = 0 and
-      card.blue = 0 and
-      card.type NOT LIKE "%LAND%"
+WHERE cards.black = 1 and
+      cards.green = 1 and
+      cards.white = 0 and
+      cards.red = 0 and
+      cards.blue = 0 and
+      cards.type NOT LIKE "%LAND%";
