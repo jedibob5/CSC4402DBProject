@@ -1,0 +1,5 @@
+SELECT c.*, COUNT(u.deck_name) as num_of_appearances
+FROM cards AS c, card_usage AS u
+WHERE c.type LIKE "%Legend%"
+GROUP BY c.card_name
+ORDER BY num_of_appearances

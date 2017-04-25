@@ -1,0 +1,3 @@
+SELECT *
+FROM cards
+WHERE type LIKE "%LAND%"
