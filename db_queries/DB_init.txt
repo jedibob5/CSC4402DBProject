@@ -2,54 +2,59 @@
 DROP TABLE if EXISTS cards;
 create table cards
 (
-card_name INT,
+card_name varchar(255),
 PRIMARY KEY(card_name),
 type VARCHAR(255) NOT NULL,
 mana_cost INT,
-card_text VARCHAR(1023);
-red TINYINT(1) NOT NULL,
-blue TINYINT(1) NOT NULL,
 white TINYINT(1) NOT NULL,
+blue TINYINT(1) NOT NULL,
 black TINYINT(1) NOT NULL,
-green TINYINT(1) NOT NULL
+red TINYINT(1) NOT NULL,
+green TINYINT(1) NOT NULL,
+card_text VARCHAR(1023)
 );
 
 #load data
-load data local infile '~/project/cards.txt' into table cards fields terminated by ',';
+load data local infile '~/project2/CardList.txt' into table cards fields terminated by '|' LINES TERMINATED BY ";";
 
 #create table competitions
-DROP TABLE if EXISTS cards;
+DROP TABLE if EXISTS competitions;
 create table competitions
 (
-competition_name VARCHAR(255),
+name VARCHAR(255),
 year INT,
-PRIMARY KEY(competition_name, year),
-location VARCHAR(255)
+PRIMARY KEY(name, year)
 );
 
 #load data
-load data local infile '~/project/competitions.txt' into table cards fields terminated by ',';
+load data local infile '~/project2/Competitions.txt' into table competitions fields terminated by '|' LINES TERMINATED BY ";";
 
-#create table usage
-DROP TABLE if EXISTS usage;
-create table usage
+#create table card_representation
+DROP TABLE if EXISTS card_representation;
+create table card_representation
 (
-FOREIGN KEY card_name REFERENCES cards(card_name),
-FOREIGN KEY deck_name REFERENCES deck_representation(deck_name),
-FOREIGN KEY competition_name REFERENCES competitions(name),
-PRIMARY KEY(card_name, deck_name, competition_name);
-);
-
-#load data
-load data local infile '~/project/usage.txt' into table cards fields terminated by ',';
-
-create table deck_representation
-(
-FOREIGN KEY card_name references cards(card_name),
-deck_name VARCHAR(255),
-PRIMARY KEY(card_name, deck_name),
+deck_name varchar(255),
+card_name VARCHAR(255),
+FOREIGN KEY (card_name) references cards(card_name),
+PRIMARY KEY (card_name, deck_name),
 number_of_copies INT
 );
 
 #load data 
-load data local infile '~/project/deck_representation.txt' into table cards fields terminated by ',';
+load data local infile '~/project2/Representation.txt' into table card_representation fields terminated by '|' LINES TERMINATED BY ";";
+
+#Create table card_usage
+DROP TABLE if EXISTS card_usage;
+create table card_usage
+(
+card_name varchar(255),
+deck_name varchar(255),
+competition_name varchar(255),
+competition_year int,
+FOREIGN KEY (card_name, deck_name) REFERENCES card_representation(card_name, deck_name),
+FOREIGN KEY (competition_name, competition_year) REFERENCES competitions(name, year),
+PRIMARY KEY (card_name, deck_name, competition_name, competition_year)
+);
+
+#load data
+load data local infile '~/project2/UsageList.txt' into table card_usage fields terminated by '|' LINES TERMINATED BY ";";

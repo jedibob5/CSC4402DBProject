@@ -1,0 +1,5 @@
+SELECT u.card_name, COUNT(u.card_name) as num_of_decks_using_this_card
+FROM card_representation as u, cards as c
+WHERE u.card_name = c.card_name and c.mana_cost >= 0 AND c.mana_cost <= 2 AND c.type NOT LIKE "%Land%" 
+GROUP BY u.card_name
+ORDER BY num_of_decks_using_this_card DESC
