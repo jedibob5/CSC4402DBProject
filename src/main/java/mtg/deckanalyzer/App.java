@@ -1,6 +1,4 @@
 package mtg.deckanalyzer;
-import java.sql.Connection;
-import java.sql.DriverManager;
 
 import io.magicthegathering.javasdk.resource.*;
 import io.magicthegathering.javasdk.api.*;
@@ -115,7 +113,11 @@ public class App
 	    			} finally
 	    			{
 	    			writeToUsageAndRepLists(nextCard.get(0), copies, deckLists.get(i).getName().substring(0, deckLists.get(i).getName().length()-4), deckLists.get(i).getParent(),bw1,bw2);
-    				nextCard.clear();
+	    			if(nextCard.size() == 2)
+	    			{
+	    				writeToUsageAndRepLists(nextCard.get(1), copies, deckLists.get(i).getName().substring(0, deckLists.get(i).getName().length()-4), deckLists.get(i).getParent(),bw1,bw2);
+	    			}
+	    			nextCard.clear();
 	    			}
 	    		}
 	    		System.out.println("Deck " + (i + 1) + " finished");
@@ -247,7 +249,6 @@ public class App
     	} finally
     	{
 			try {
-
 				if (bw != null)
 					bw.close();
 
