@@ -194,7 +194,10 @@ public class App
 
 		    	for(boolean k:colors)
 		    	{
-		        	str = str + "|" + k;
+		    		if(k)
+		    			str = str + "|" + "1";
+		    		else
+		    			str = str + "|" + "1";
 		    	}
 
 		    	str = str + "|" + c.getText() + ";";
