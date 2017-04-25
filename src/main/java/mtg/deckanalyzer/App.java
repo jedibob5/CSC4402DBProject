@@ -154,11 +154,9 @@ public class App
     {
     	//Print Usage
     	bw1.write(c.getName()+"|"+deck+"|"+comp.substring(6,comp.length() - 5)+"|"+comp.substring(comp.length() - 4)+";");
-    	bw1.newLine();		//consider removing for the real run
 
     	//Print Representation
     	bw2.write(deck+"|"+c.getName()+"|"+copies + ";");
-    	bw2.newLine();		//consider removing for the real run
     }
 
     public static void writeCardList(ArrayList<Card> cardList, File f)
@@ -201,7 +199,6 @@ public class App
 
 		    	str = str + "|" + c.getText() + ";";
 		    	bw.write(str);
-		    	bw.newLine();		//consider removing for the real run
 			}
 		} catch(Exception ex)
     	{
