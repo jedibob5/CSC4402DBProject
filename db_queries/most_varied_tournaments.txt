@@ -1,4 +1,8 @@
-SELECT competition_name, COUNT(card_name) as unique_cards
-FROM card_usage
-GROUP BY unique_cards, competition_name
-SORT BY unique_cards DESC;
+SELECT count(competition_name) as unique_cards
+FROM (
+	SELECT competition_name, COUNT(card_name) as total_cards
+	FROM card_usage
+	GROUP BY card_name, competition_name
+) AS x
+GROUP BY competition_name
+ORDER BY unique_cards DESC;

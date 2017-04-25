@@ -1,8 +1,0 @@
-#!/bin/bash
-username=$1
-password=$2
-database=$3
-query = $4
-authentication='--local-infile -u'$username' -p'$password' '$database
-mysql <authentication
-mysql <$query
