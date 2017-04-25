@@ -1,5 +1,0 @@
-SELECT COUNT(u.card_name) as num_of_decks_using_this_card
-FROM usage as u, cards as c
-GROUP BY u.card_name
-WHERE u.card_name = c.card_name and c.manacost <= 2 and c.manacost >= 0
-ORDER BY num_of_decks_using_this_card ASC
