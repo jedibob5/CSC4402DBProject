@@ -1,4 +1,4 @@
-SELECT count(competition_name) as unique_cards
+SELECT competition_name, count(competition_name) as unique_cards
 FROM (
 	SELECT competition_name, COUNT(card_name) as total_cards
 	FROM card_usage
