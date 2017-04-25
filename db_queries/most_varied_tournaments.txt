@@ -1,0 +1,4 @@
+SELECT competition_name, COUNT(card_name) as unique_cards
+FROM card_usage
+GROUP BY unique_cards, competition_name
+SORT BY unique_cards DESC;
