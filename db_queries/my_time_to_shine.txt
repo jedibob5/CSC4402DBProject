@@ -1,0 +1,4 @@
+SELECT card_name, COUNT(deck_name) as num_of_occurrences, competition_name
+FROM card_usage
+GROUP BY card_name, competition_name
+HAVING num_of_occurrences = 1;
